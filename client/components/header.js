@@ -30,6 +30,7 @@ const Header = () => {
             type="button"
             className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
           >
+            <div><a href="https://www.google.com/"> Menu </a></div>
             <svg
               className="fill-current h-3 w-3"
               viewBox="0 0 20 20"
