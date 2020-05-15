@@ -2,11 +2,11 @@ import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 
 const Profile = () => {
-   const { username } = useParams()
+   const { user } = useParams()
   return (
     <div>
       <div id="title"> Profile </div>
-      <div id="username"> { username } </div>
+      <div id="username"> { user } </div>
       <Link to="/dashboard">    Go To Root    </Link>
       <Link to="/dashboard/main">       Go To main</Link>
     </div>
